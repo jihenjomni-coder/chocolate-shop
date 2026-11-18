@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-cream: #FBF6EC;
+  --text-cocoa: #24120A;
+  --accent-gold: #C99E32;
+}
+
+body {
+  background-color: #FBF6EC;
+  color: #24120A;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+
+/* Custom gold scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5EAD6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C99E32;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #A87E1E;
+}
